@@ -39,7 +39,7 @@ var app = angular.module('MyApp', [])
                 { Name: " UNIT-5 Lecture-2", video: "https://www.youtube.com/watch?v=RTLwVxWv-u0" },
                   { Name: " UNIT-5 Lecture-3", video: "https://www.youtube.com/watch?v=TmlQIFCh0IE" },
                 { Name: " UNIT-5 Lecture-4", video: "https://www.youtube.com/watch?v=v4-HZujUKIA" },
-                 { Name: " UNIT-5 Lecture-4", video: "https://www.youtube.com/watch?v=QeENXyaCRvE" },
+                 { Name: " UNIT-5 Lecture-5", video: "https://www.youtube.com/watch?v=QeENXyaCRvE" },
                  
  
             ]
