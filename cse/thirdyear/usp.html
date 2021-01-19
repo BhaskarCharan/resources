@@ -1,0 +1,61 @@
+<!DOCTYPE html >
+<html>
+<head>
+   	<title>usp</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+     
+</head>
+<body>
+<script src="usp.js"></script>
+  
+    <div ng-app="MyApp" ng-controller="MyController">
+        <div class="limiter">
+		    <div class="container-table100">
+			    <div class="wrap-table100">
+
+
+                <div class="table100 ver1 m-b-110">
+					<table data-vertable="ver1" >
+						<thead>
+							<tr class="row100 head">
+								<th class="column100 column1" data-column="column1"  >TOPICS</th>
+                                
+                               
+								
+							</tr>
+                        </thead>
+                
+
+
+       
+            
+            <tbody ng-repeat="m in subject">
+            
+							<tr class="row100">
+                    <td class="column100 column1" data-column="column1"><strong>{{ m.Name }}</strong></td>
+                   
+                    <td class="column100 column3" data-column="column3">
+                    <p>
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-download-alt"></span> Download
+        </button> 
+                    <a class="btn btn-info btn-sm" href= {{m.video}}>Video</a></p></td>
+                </tr>
+            </tbody>
+            
+        </table>
+        </div>
+    </div  
+</body>
+</html>
