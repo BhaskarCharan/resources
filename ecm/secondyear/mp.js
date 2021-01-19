@@ -6,7 +6,7 @@ var app = angular.module('MyApp', [])
             
 	            { Name: " UNIT-2 ", video: " https://youtu.be/HenxJmoIrPY" },
                 
-		        { Name: " UNIT-3  Lecture 1", video: " "https://youtu.be/_UIpdbknmNE" },
+		        { Name: " UNIT-3  Lecture 1", video: "https://youtu.be/_UIpdbknmNE" },
                 { Name: "UNIT-3 Lecture 2", video: "https://youtu.be/_yPujsM9RHU " },
                
 				
