@@ -152,24 +152,24 @@ th, td {
 /*==================================================================
 [ Ver1 ]*/
 .table100.ver1 td {
-  font-family: Montserrat-Bold;
-  font-size: 20px;
-  color: #808080;
+  font-family: oswald;
+  font-size: 30px;
+  color: #606060;
   line-height: 1.4;
 }
 
 .table100.ver1 th {
   font-family: Montserrat-Bold;
   font-size: 25px;
-  color: #fff;
+  color: azure;
   line-height: 1.4;
   text-transform: uppercase;
 
-  background-color: #50394c;
+  background-color: #5c3c92;
 }
 
 .table100.ver1 .row100:hover {
-  background-color: #b8a9c9 ;
+  background-color: azure ;
 }
 
 .table100.ver1 .hov-column-ver1 {
@@ -177,12 +177,13 @@ th, td {
 }
 
 .table100.ver1 .hov-column-head-ver1 {
-  background-color: #484848 !important;
+  background-color: #484848 !important ;
 }
 
 .table100.ver1 .row100 td:hover {
-  background-color: #6c7ae0;
+  background-color: #6c7ae0 ;
   color: #fff;
 }
+
 
 
